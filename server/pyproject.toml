@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "longevity-test-task"
+version = "0.1.0"
+description = ""
+authors = ["sam <sementip@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "3.2.2"
+psycopg2-binary = "2.9.6"
+djangorestframework = "3.12.4"
+dj-database-url = "^0.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
